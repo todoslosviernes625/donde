@@ -2,27 +2,58 @@
  <html lang="en">
 
  <head>
- <!-- Google Tag Manager -->
-
-<!-- Google tag (gtag.js) -->
-
-
-<!-- End Google Tag Manager -->
- 
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<title>Donde Nacho | App</title>
-	<link rel="canonical" href="www.dondenacho.onrender.com" />
+	<title>Simple PWA</title>
+	<link rel="canonical" href="https://simplepwa.com" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
 	<!-- Icons and Colors -->
-
+	<link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+	<link rel="manifest" href="./manifest.json">
+	<link rel="mask-icon" href="./safari-pinned-tab.svg" color="#000000">
+	<link rel="shortcut icon" href="./favicon.ico">
+	<meta name="msapplication-TileColor" content="#000000">
+	<meta name="msapplication-TileImage" content="./mstile-144x144.png">
+	<meta name="msapplication-config" content="./browserconfig.xml">
+	<meta name="theme-color" content="#000000">
+	
+	<!-- SEO and Social Sharing and SEO 
+	https://omni-30035.web.app/5ot/
+	-->
+	<meta name="description" content="Simple Progressive Web App (PWA) template" />
+	<meta name="robots" content="noodp" />
+	<meta name="author" content="Nicole Furlan">
+	<meta name="keywords" content="progressive web app, progressive web application, pwa, pwa progressive web app, 
+	pwa progressive web application, progressive app, basic progressive web app, basic progressive web application, 
+	basic pwa, example progressive web app, example progressive web application, example pwa, progressive web app basic, 
+	progressive web app builder, progressive web app example, progressive web app sample, progressive web app template, 
+	sample progressive web app, sample progressive web application, sample pwa, free progressive web application template, 
+	progressive web application template, progressive web app template free, progressive web app template free download, 
+	progressive web app html template, progressive web app template github" />
+	
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Simple PWA" />
+	<meta property="og:description" content="Simple Progressive Web App (PWA) template" />
+	<meta property="og:url" content="https://omni-30035.web.app/5ot/" />
+	<meta property="og:site_name" content="Simple PWA" />
+	<meta property="section:publisher" content="https://www.facebook.com/" />
+	<meta property="og:image" content="https://omni-30035.web.app/5ot/share.jpg" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content="Simple PWA" />
+	<meta name="twitter:description" content="Simple Progressive Web App (PWA) template" />
+	<meta name="twitter:site" content="@simplepwa" />
+	<meta name="twitter:image" content="https://omni-30035.web.app/5ot/share.jpg" />
+	<meta name="twitter:creator" content="@nicolemfurlan" />
 
 	<!-- Styles -->
 	<link rel="stylesheet" href="style.css">
 
-<!-- Javscript -->
-<script>
+	<!-- Javscript -->
+	<script>
 		if ("serviceWorker" in navigator) {
 			window.addEventListener("load", () => {
 				navigator.serviceWorker && navigator.serviceWorker.register("./sw.js");
@@ -30,387 +61,235 @@
 		}
 	</script>
 	<script defer src="./main.js"></script>
-	
-<!-- Google	</style>-->	
-
-
-	
-<title>Donde Nacho</title>
  </head>
 
  <body>
-<!-- Google Tag Manager (noscript) -->
-<!-- End Google Tag Manager (noscript) -->
 
-<header>
-<div class="container">
-<a href="./" class="logo" aria-label="Logo">
-<img src="logo.gif" alt="Logo">
-</a>
-<h1>LET´s BE  HAPPY! app</h1>
-</div>
-</header>
+	<header>
+		<div class="container">
+			<a href="./" class="logo" aria-label="Logo">
+				<img src="logo.gif" alt="Logo">
+			</a>
+			<h1>LET´s BE  HAPPY! </h1>
+		</div>
+	</header>
 
-<section>
-<div class="container">
-<h2 id="what">What is this?</h2>
-<!--URL_EQUIS--><p>
-<a href="#" target="_blank" rel="noopener">Donde Nacho</a> 
-(<strong>web-app</strong>), es una iniciativa tecnologica de la marca, dirigida a nuestra distiguidad clientela, quien nos eligen, no solo para informar de nuestras actividades, si complementar la experiencia que implica su asistencia a una y cada una de las Sedes.  <p>En nuestra primeras  
-<!--URL_EQUIS-->
-<a href="#" target="_blank" rel="noopener">versiones</a> (<strong>app-web</strong>) probadas en nuestro seguidores de instagra, el personal de todas y cada una de nuestra sedes, ofrecemos la version 
-<!--URL_EQUIS-->
-<a href="#" target="_blank" rel="noopener">&quot;Casupo&quot;</a>, una web application. informativa, En simultaneo estamos trabajamdo en otras  
-<!--URL_EQUIS-->
-<a href="#capable" target="_blank" rel="noopener">"Avila"</a>.
-Mas interactivas, con animaciones, "offline-first", using caching strategy, <p>pulse aqui en 
-<!--URL_EQUIS-->
-<a href="_network" target="_blank" rel="noopener">"Novedades" </a>Para mayor informacion, <strong>SEMANAL#10</strong><br> 
-de nuestra actividades y promociones.<ul>
-<!--PRODUCTO </code>-->
-<!--	-->
-<li><h2>B U R G U E R S</h2>
-<b>-07-</b></li>
+	<section>
+		<div class="container">
+			<h2 id="what">What is this?</h2>
+			<p><a href="https://github.com/nikkifurls/simple-pwa" target="_blank" rel="noopener">Simple PWA</a> 
+			is a Progressive Web App template that provides the minimum file structure needed to create a PWA&#x2014;a 
+			<a href="https://web.dev/what-are-pwas/#reliable" target="_blank" rel="noopener">reliable</a> and 
+			<a href="https://web.dev/what-are-pwas/#installable" target="_blank" rel="noopener">installable</a> 
+			web application. It's up to you to build upon it, to make it <a href="https://web.dev/what-are-pwas/#capable" 
+			target="_blank" rel="noopener">capable</a>.
+			<p>Simple PWA is "offline-first", using a 
+			<a href="https://developers.google.com/web/ilt/pwa/caching-files-with-service-worker#cache_then_network" target="_blank" rel="noopener">"cache first"
+			</a> caching strategy, which means on load, two asynchronous requests are kicked off&#x2014;one to the 
+			cache, and one to the network. If there's a cached version available, it is used, but the updated version 
+			is fetched and stored for the next load. To force the cache to update from the network, change the value of 
+			<a href="https://github.com/nikkifurls/simple-pwa/blob/master/sw.js#L1" target="_blank" rel="nofollow noopener">
+			<code>cacheName</code></a> in <a href="https://github.com/nikkifurls/simple-pwa/blob/master/sw.js" target="_blank" rel="nofollow noopener"><code>sw.js</code></a>.</p>
+			<ul>
+				<li>
+					<a href="https://github.com/nikkifurls/simple-pwa/blob/master/android-chrome-36x36.png" target="_blank" rel="nofollow noopener"><code>android-chrome-36x36.png</code>
+					</a> <code class="image">image</code> Favicon, Android Chrome M39+ with 0.75 screen density
+				</li>
+				<li>
+					<a href="https://github.com/nikkifurls/simple-pwa/blob/master/android-chrome-48x48.png" target="_blank" rel="nofollow noopener"><code>android-chrome-48x48.png</code>
+					</a> <code class="image">image</code> Favicon, Android Chrome M39+ with 1.0 screen density
+				</li>
+				<li>
+					<a href="https://github.com/nikkifurls/simple-pwa/blob/master/android-chrome-72x72.png" target="_blank" rel="nofollow noopener"><code>android-chrome-72x72.png</code>
+					</a> <code class="image">image</code> Favicon, Android Chrome M39+ with 1.5 screen density
+				</li>
+				<li>
+					<a href="https://github.com/nikkifurls/simple-pwa/blob/master/android-chrome-96x96.png" target="_blank" rel="nofollow noopener"><code>android-chrome-96x96.png</code>
+					</a> <code class="image">image</code> Favicon, Android Chrome M39+ with 2.0 screen density
+				</li>
+				<li>
+					<a href="https://github.com/nikkifurls/simple-pwa/blob/master/android-chrome-144x144.png" target="_blank" rel="nofollow noopener"><code>android-chrome-144x144.png</code>
+					</a> <code class="image">image</code> Favicon, Android Chrome M39+ with 3.0 screen density
+				</li>
+				<li>
+					<a href="https://github.com/nikkifurls/simple-pwa/blob/master/android-chrome-192x192.png" target="_blank" rel="nofollow noopener"><code>android-chrome-192x192.png</code>
+					</a> <code class="image">image</code> Favicon, Android Chrome M39+ with 4.0 screen density
+				</li>
+				<li>
+					<a href="https://github.com/nikkifurls/simple-pwa/blob/master/android-chrome-256x256.png" target="_blank" rel="nofollow noopener"><code>android-chrome-256x256.png</code>
+					</a> <code class="image">image</code> Favicon, Android Chrome M47+ Splash screen with 1.5 screen density
+				</li>
+				<li>
+					<a href="https://github.com/nikkifurls/simple-pwa/blob/master/android-chrome-384x384.png" target="_blank" rel="nofollow noopener"><code>android-chrome-384x384.png</code>
+					</a> <code class="image">image</code> Favicon, Android Chrome M47+ Splash screen with 3.0 screen density
+				</li>
+				<li>
+					<a href="https://github.com/nikkifurls/simple-pwa/blob/master/android-chrome-512x512.png" target="_blank" rel="nofollow noopener"><code>android-chrome-512x512.png</code>
+					</a> <code class="image">image</code> Favicon, Android Chrome M47+ Splash screen with 4.0 screen density
+				</li>
+				<li>
+					<a href="https://github.com/nikkifurls/simple-pwa/blob/master/apple-touch-icon.png" target="_blank" rel="nofollow noopener"><code>apple-touch-icon.png</code></a> 
+					<code class="image">image</code> Favicon, Apple default
+				</li>
+				<li>
+					<a href="https://github.com/nikkifurls/simple-pwa/blob/master/apple-touch-icon-57x57.png" target="_blank" rel="nofollow noopener"><code>apple-touch-icon-57x57.png</code>
+					</a> <code class="image">image</code> Favicon, Apple iPhone, non-Retina with iOS6 or prior
+				</li>
+				<li>
+					<a href="https://github.com/nikkifurls/simple-pwa/blob/master/apple-touch-icon-60x60.png" target="_blank" rel="nofollow noopener"><code>apple-touch-icon-60x60.png</code>
+					</a> <code class="image">image</code> Favicon, Apple iPhone, non-Retina with iOS7
+				</li>
+				<li>
+					<a href="https://github.com/nikkifurls/simple-pwa/blob/master/apple-touch-icon-72x72.png" target="_blank" rel="nofollow noopener"><code>apple-touch-icon-72x72.png</code>
+					</a> <code class="image">image</code> Favicon, Apple iPad, non-Retina with iOS6 or prior
+				</li>
+				<li>
+					<a href="https://github.com/nikkifurls/simple-pwa/blob/master/apple-touch-icon-76x76.png" target="_blank" rel="nofollow noopener"><code>apple-touch-icon-76x76.png</code>
+					</a> <code class="image">image</code> Favicon, Apple iPad, non-Retina with iOS7
+				</li>
+				<li>
+					<a href="https://github.com/nikkifurls/simple-pwa/blob/master/apple-touch-icon-114x114.png" target="_blank" rel="nofollow noopener"><code>apple-touch-icon-114x114.png</code>
+					</a> <code class="image">image</code> Favicon, Apple iPhone, Retina with iOS6 or prior
+				</li>
+				<li>
+					<a href="https://github.com/nikkifurls/simple-pwa/blob/master/apple-touch-icon-120x120.png" target="_blank" rel="nofollow noopener"><code>apple-touch-icon-120x120.png</code>
+					</a> <code class="image">image</code> Favicon, Apple iPhone, Retina with iOS7
+				</li>
+				<li>
+					<a href="https://github.com/nikkifurls/simple-pwa/blob/master/apple-touch-icon-144x144.png" target="_blank" rel="nofollow noopener"><code>apple-touch-icon-144x144.png</code>
+					</a> <code class="image">image</code> Favicon, Apple iPad, Retina with iOS6 or prior
+				</li>
+				<li>
+					<a href="https://github.com/nikkifurls/simple-pwa/blob/master/apple-touch-icon-152x152.png" target="_blank" rel="nofollow noopener"><code>apple-touch-icon-152x152.png</code>
+					</a> <code class="image">image</code> Favicon, Apple iPad, Retina with iOS7
+				</li>
+				<li>
+					<a href="https://github.com/nikkifurls/simple-pwa/blob/master/apple-touch-icon-180x180.png" target="_blank" rel="nofollow noopener"><code>apple-touch-icon-180x180.png</code>
+					</a> <code class="image">image</code> Favicon, Apple iPhone 6 Plus with iOS8
+				</li>
+				<li>
+					<a href="https://github.com/nikkifurls/simple-pwa/blob/master/browserconfig.xml" target="_blank" rel="nofollow noopener"><code>browserconfig.xml</code>
+					</a> IE11 icon configuration file
+				</li>
+				<li>
+					<a href="https://github.com/nikkifurls/simple-pwa/blob/master/favicon_config.json" target="_blank" rel="nofollow noopener"><code>favicon_config.json</code>
+					</a> <a href="#how" >RealFaviconGenerator</a> configuration file
+				</li>
+				<li>
+					<a href="https://github.com/nikkifurls/simple-pwa/blob/master/favicon.ico" target="_blank" rel="nofollow noopener"><code>favicon.ico</code>
+					</a> <code class="image">image</code> Favicon, IE and fallback for other browsers
+				</li>
+				<li>
+					<a href="https://github.com/nikkifurls/simple-pwa/blob/master/favicon.png" target="_blank" rel="nofollow noopener"><code>favicon.png</code>
+					</a> <code class="image">image</code> Favicon generation source image
+				</li>
+				<li>
+					<a href="https://github.com/nikkifurls/simple-pwa/blob/master/favicon-16x16.png" target="_blank" rel="nofollow noopener"><code>favicon-16x16.png</code>
+					</a> <code class="image">image</code> Favicon, default
+				</li>
+				<li>
+					<a href="https://github.com/nikkifurls/simple-pwa/blob/master/favicon-32x32.png" target="_blank" rel="nofollow noopener"><code>favicon-32x32.png</code>
+					</a> <code class="image">image</code> Favicon, Safari on Mac OS
+				</li>
+				<li>
+					<a href="https://github.com/nikkifurls/simple-pwa/blob/master/index.html" target="_blank" rel="nofollow noopener"><code>index.html</code>
+					</a> Main HTML file
+				</li>
+				<li>
+					<a href="https://github.com/nikkifurls/simple-pwa/blob/master/logo.png" target="_blank" rel="nofollow noopener"><code>logo.png</code>
+					</a> <code class="image">image</code> Logo
+				</li>
+				<li>
+					<a href="https://github.com/nikkifurls/simple-pwa/blob/master/main.js" target="_blank" rel="nofollow noopener"><code>main.js</code>
+					</a> Main Javascript file
+				</li>
+				<li>
+					<a href="https://github.com/nikkifurls/simple-pwa/blob/master/manifest.json" target="_blank" rel="nofollow noopener"><code>manifest.json</code>
+					</a> <a href="https://web.dev/add-manifest/" target="_blank" rel="noopener">Manifest file</a>
+				</li>
+				<li>
+					<a href="https://github.com/nikkifurls/simple-pwa/blob/master/maskable_icon.png" target="_blank" rel="nofollow noopener"><code>maskable_icon.png</code>
+					</a> <code class="image">image</code> Favicon, <a href="https://web.dev/maskable-icon" target="_blank" rel="noopener">maskable</a>
+				</li>
+				<li>
+					<a href="https://github.com/nikkifurls/simple-pwa/blob/master/mstile-70x70.png" target="_blank" rel="nofollow noopener"><code>mstile-70x70.png</code>
+					</a> <code class="image">image</code> Favicon, Windows 8 / IE11
+				</li>
+				<li>
+					<a href="https://github.com/nikkifurls/simple-pwa/blob/master/mstile-144x144.png" target="_blank" rel="nofollow noopener"><code>mstile-144x144.png</code>
+					</a> <code class="image">image</code> Favicon, Windows 8 / IE10
+				</li>
+				<li>
+					<a href="https://github.com/nikkifurls/simple-pwa/blob/master/mstile-150x150.png" target="_blank" rel="nofollow noopener"><code>mstile-150x150.png</code>
+					</a> <code class="image">image</code> Favicon, Windows 8 / IE11
+				</li>
+				<li>
+					<a href="https://github.com/nikkifurls/simple-pwa/blob/master/mstile-310x150.png" target="_blank" rel="nofollow noopener"><code>mstile-310x150.png</code>
+					</a> <code class="image">image</code> Favicon, Windows 8 / IE11
+				</li>
+				<li>
+					<a href="https://github.com/nikkifurls/simple-pwa/blob/master/mstile-310x310.png" target="_blank" rel="nofollow noopener"><code>mstile-310x310.png</code>
+					</a> <code class="image">image</code> Favicon, Windows 8 / IE11
+				</li>
+				<li>
+					<a href="https://github.com/nikkifurls/simple-pwa/blob/master/README.md" target="_blank" rel="nofollow noopener"><code>README.md</code>
+					</a> Readme file
+				</li>
+				<li>
+					<a href="https://github.com/nikkifurls/simple-pwa/blob/master/robots.txt" target="_blank" rel="nofollow noopener"><code>robots.txt</code></a> Robots file
+				</li>
+				<li>
+					<a href="https://github.com/nikkifurls/simple-pwa/blob/master/safari-pinned-tab.svg" target="_blank" rel="nofollow noopener"><code>safari-pinned-tab.svg</code>
+					</a> <code class="image">image</code> Favicon, Safari pinned tab
+				</li>
+				<li>
+					<a href="https://github.com/nikkifurls/simple-pwa/blob/master/sitemap.xml" target="_blank" rel="nofollow noopener"><code>sitemap.xml</code>
+					</a> Sitemap file
+				</li>
+				<li>
+					<a href="https://github.com/nikkifurls/simple-pwa/blob/master/share.jpg" target="_blank" rel="nofollow noopener"><code>share.jpg</code>
+					</a> <code class="image">image</code> Social media sharing
+				</li>
+				<li>
+					<a href="https://github.com/nikkifurls/simple-pwa/blob/master/sw.js" target="_blank" rel="nofollow noopener"><code>sw.js</code>
+					</a> Service worker file
+				</li>
+				<li>
+					<a href="https://github.com/nikkifurls/simple-pwa/blob/master/style.css" target="_blank" rel="nofollow noopener"><code>style.css</code>
+					</a> Main CSS file
+				</li>
+			</ul>
+			<h2 class="how">How do I use it?</h2>
+			<ol>
+				<li>Clone the repository from <a href="https://github.com/nikkifurls/simple-pwa" target="_blank" rel="noopener">GitHub</a>.</li>
+				<li>Create all favicon images using <a href="https://realfavicongenerator.net" target="_blank" rel="noopener">RealFaviconGenerator</a> and replace existing images with generated images.
+					<p>If you're able to install the CLI version of <strong>RealFaviconGenerator</strong>, <a href="https://github.com/nikkifurls/simple-pwa/blob/master/favicon_config.json" target="_blank" rel="nofollow noopener"><code>favicon_config.json</code></a> contains all settings to generate these images using the following command from the project's root directory. The <code>real-favicon</code> tool generates images from <a href="https://github.com/nikkifurls/simple-pwa/blob/master/favicon.png" target="_blank" rel="nofollow noopener"><code>favicon.png</code></a>, so replace <a href="https://github.com/nikkifurls/simple-pwa/blob/master/favicon.png" target="_blank" rel="nofollow noopener"><code>favicon.png</code></a> prior to running this command. The resulting <code>favicon_data.json</code> and <code>site.webmanifest</code> can be discarded.</p>
+					<p><code>real-favicon generate favicon_config.json favicon_data.json .</code></p>
+				</li>
+				<li>Create new 650x650 maskable icon using <a href="https://maskable.app" target="_blank" rel="noopener">Maskable.app</a> and replace <a href="https://github.com/nikkifurls/simple-pwa/blob/master/maskable_icon.png" target="_blank" rel="nofollow noopener"><code>maskable_icon.png</code></a>.</li>
+				<li>Create new black vector icon using <a href="http://manytools.org/image/colorize-filter" target="_blank" rel="noopener">Manytools' colorize images tool</a> and replace <a href="https://github.com/nikkifurls/simple-pwa/blob/master/safari-pinned-tab.svg" target="_blank" rel="nofollow noopener"><code>safari-pinned-tab.svg</code></a>.</li>
+				<li>Create new 1200x630 share image and replace <a href="https://github.com/nikkifurls/simple-pwa/blob/master/share.jpg" target="_blank" rel="nofollow noopener"><code>share.jpg</code></a>.</li>
+				<li>Build upon the PWA by adding HTML, CSS, and Javascript.</li>
+			</ol>
+			<h2 class="more">Where can I find other PWAs?</h2>
+			<p>Looking for inspiration? Check out these PWA directories:</p>
+			<ul>
+				<li><a href="https://pwainside.com/" target="_blank" rel="noopener nofollow">PWA Inside</a></li>
+				<li><a href="https://appsco.pe/" target="_blank" rel="noopener nofollow">Appscope</a></li>
+				<li><a href="https://progressiveapp.store/" target="_blank" rel="noopener nofollow">Progressive App Store</a></li>
+				<li><a href="https://pwa-directory.appspot.com/" target="_blank" rel="noopener nofollow">PWA Directory</a></li>
+			</ul>
+			<h2 class="help">Can I contribute?</h2>
+			<p>Want to help improve this? Contributions are welcome! <span class="icon arrow" role="img" aria-label="Arrow">&#x27A1;&#xFE0F;</span>&nbsp;<a href="https://github.com/nikkifurls/simple-pwa" target="_blank" rel="nofollow noopener">GitHub</a></p>
+		</div>
+	</section>
 
-<li><!--URL_EQUIS-->
-<a href="#" target="_blank" rel="nofollow noopener">
-<code>_ C R I S P Y  _ B U R G E R _</code></a> 
-<code class="image">image</code> 01|<br> 
-180g dc pollo crispy, tocineta, queso fundido, pepinillo, tomate y lechuga.<br> 
-<b>$6-00</b></li>
+	<footer>
+		<div class="container">
+			<p>If you find this useful, please share it, and if you can, support me directly on <a href="https://patreon.com/nicolefurlan" target="_blank" rel="noopener nofollow">Patreon</a> or <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FACW2AMWGLZ6S&source=url" target="_blank" rel="noopener nofollow">Paypal</a>. Your support is greatly appreciated!&nbsp;<span class="icon heart" role="img" aria-label="Heart">&#x2764;</span></p>
+		</div>
+	</footer>
 
-<li><!--URL_EQUIS-->
-<a href="#" target="_blank" rel="nofollow noopener">
-<code>_ M E C H A D A  _  B U R G E R _</code></a> 
-<code class="image">image</code> 02|<br>
-170g de carne magra mechada, tocineta,
-huevo, queso, tomate y lechuga.<br> 
-<b>$6.00</b></li>
+ </body>
 
-<li><!--URL_EQUIS-->
-<a href="#" target="_blank" rel="nofollow noopener">
-<code>_ C I A S S I C _  B U R G E R _</code>
-</a> <code class="image">image</code> 03| <br>
-200g de carne de rest queso fundido,
-pepinillo, tomate y lechuga.<br>
-<b>$5.00</b></li>
-
-<li><!--URL_EQUIS-->
-<a href="#" target="_blank" rel="nofollow noopener">
-<code>_ T O C I  _ B U R G E R _</code>
-</a> <code class="image">image</code> 04|<br> 
-200g de carne do ces, tocineta,
-queso fundido, pepinillo, cebona,
-tomate y lechuga.
-<br> <b>$6.00</b></li>
-
-<li><!--URL_EQUIS-->
-<a href="#" target="_blank" rel="nofollow noopener">
-<code>_ B U R G U E R  _ M I X T A _</code>
-</a> <code class="image">image</code> 05|<br> 
-170g de pollo crispy, 200g de carne de res, doble tocineta,
-doble queso fundido, pepinillo, tomate y lechuga.
-<br><b>$8.00</b></li>
-
-<li><!--URL_EQUIS-->
-<a href="#" target="_blank" rel="nofollow noopener">
-<code>_ M I N I  _  B U R G E R _  K I D S</code>
-</a> <code class="image">image</code> 06|<br> 
-100g de carne de res, mini pan,+ queso, tocineta y pepinillo. 
-<br><b>$3.OO</b></li>
-
-<li><!--URL_EQUIS-->
-<a href="#" target="_blank" rel="nofollow noopener">
-<code>_T R I _  B U R G U E R _</code>
-</a> <code class="image">image</code> 07|<br> 
-100g de carne de res x3, tocineta x3,+ queso fundido pepinillo, tomate y lechuga. 
-<br><b>$8.00</b></li>
-
-</ul> <p> <!--	 03</li>	--></p><ul>
-<!-- PRODUCTOS 10-08	-->
-
-<li>
-<h2> H O T  D O G </h2>
-<b>-03-</b></li>
-
-
-<li> <!--URL_EQUIS-->
-<a href="#" target="_blank" rel="nofollow noopener">
-<code>_ C L A S S I C _</code></a> 
-<code class="image">image</code> 08|<br> 
-Tocineta + maíz + ensalada (lechuga)+ cebolla	y papas fritas.
-<br> <b>$2.00</b></li>
-
-<li><!--URL_EQUIS-->
-<a href="#" target="_blank" rel="nofollow noopener">
-<code>_ C H E E S Y _</code>
-</a> <code class="image">image</code> 09| <br>
-Tocineta, queso fundido, maíz, ensalada, cebolla y papas fritas. 
-<br><b>$2.00</b></li>
-
-<li><!--URL_EQUIS-->
-<a href="#" target="_blank" rel="nofollow noopener">
-<code>_  C O M B O s  |  </code>
-</a> <code class="image">image</code><br>   
-<strong>D O N D E   N A C H O #11</strong> <br> 10| 
-Classic + Refresco.	TAMAÑOS NORMALES (10 Und )	TENDERS DE POLLO FRITOS.(para reuniones y cumpleaños) .<br>
-<b> $15.00</b></li>
-
-</ul><p>&nbsp;</p>
-<ul>
-			
-<!-- 06  </li>  -->
-<!-- PRODUCTO 14-11  -->
-
-<li>  <h2> P E P I T O </h2>
-<b>-04-</b> </li>
-
-<li><!--URL_EQUIS-->
-<a href="#" target="_blank" rel="nofollow noopener">
-<code>_ C A R N E _</code>
-</a> <code class="image">image</code> 11|<br> 
-250g de carne de res, tocineta, maíz, queso, cebolla, ensalada y papas fritas. 
-<br><b>$9.00</b></li>
-
-<li><!--URL_EQUIS-->
-<a href="icon-114x114.png" target="_blank" rel="nofollow noopener">
-<code>_ M E C H A D A _</code>
-</a> <code class="image">image</code>12|<br> 
-250g de carne magra mechada, tocineta, maíz, queso, ensalada, huevo y papas fritas. 
-<br><b>$9.00</b></li>
-
-<li><!--URL_EQUIS-->
-<a href="icon-120x120.png" target="_blank" rel="nofollow noopener">
-<code>_ P O L L O _</code>
-</a> <code class="image">image</code> 13|<br> 
-250g de pollo, tocineta, maíz, queso, cebolla, ensalada y papas fritas. 
-<br><b>$9.00</b></li>
-
-<li><!--URL_EQUIS-->
-<a href="icon-144x144.png" target="_blank" rel="nofollow noopener">
-<code>_ M I X T O _</code>
-</a> <code class="image">image</code> 14|<br> 
-12Sg de carne do res y 12Sg de pollo, tocineta, maíz, queso, cebolla, ensalada y papas fritas. 
-<br><b>$9.00</b>
-</li>
-
-</ul>
-
-<!--	<li> ="I08</li>  -->
-<!--PRODUCTOS 15-34  -->
-
-
-<ul>
-<li><h2>M O R E </h2><b>-08-</b> </li>
-
-<li><!--URL_EQUIS-->
-<a href="mstile-70x70.png" target="_blank" rel="nofollow noopener">
-<code>M O R E</code>
-</a> <code class="image">image</code> 15<br>
-<b>$3.00</b>| PAPAS NORMALES</li>
-                
-<li><!--URL_EQUIS-->
-<a href="mstile-70x70.png" target="_blank" rel="nofollow noopener">
-<code>M O R E</code>
-</a> <code class="image">image</code> 16<br>
-<b>$6.00</b>| TENDERS DE POLLO (KIDs)</li> 
-          
-                
-                
-<li><!--URL_EQUIS-->
-<a href="mstile-70x70.png" target="_blank" rel="nofollow noopener">
-<code>M O R E</code>
-</a> <code class="image">image</code> 17<br>
-<b>$5.00</b>| SALCHI PAPAS</li>
-                
-<li><!--URL_EQUIS-->
-<a href="mstile-70x70.png" target="_blank" rel="nofollow noopener">
-<code>M O R E</code>
-</a> <code class="image">image</code> 18<br>
-<b>$3.00</b>| TEQUEÑOS DE QUESO </li>                 
-
-<li><!--URL_EQUIS-->
-<a href="mstile-70x70.png" target="_blank" rel="nofollow noopener">
-<code>M O R E</code>
-</a> <code class="image">image</code> 19	<br>
-<b>$5.00</b>| TEQUEÑOS de guayava con queso (NEW)</li>
-                
-<li><!--URL_EQUIS-->
-<a href="mstile-70x70.png" target="_blank" rel="nofollow noopener">
-<code>M O R E</code>
-</a> <code class="image">image</code> 20<br>
-<b>$5.00</b>| TEQUEÑOS DE OVOMALTINA</li>  
-
-<li><!--URL_EQUIS-->
-<a href="mstile-70x70.png" target="_blank" rel="nofollow noopener">
-<code>M O R E</code>
-</a> <code class="image">image</code> 21<br>
-<b>$5.00</b>| PAPAS CON QUESO Y TOCINETA</li>
-                
-<li><!--URL_EQUIS-->
-<a href="mstile-70x70.png" target="_blank" rel="nofollow noopener">
-<code>M O R E</code>
-</a> <code class="image">image</code> 22<br>
-<b>$1.00 </b>| PAPAS _ RACION INDIVIDUAL</li> 
-</ul>
-
-
-<ul>
-<!-- E X T R A S _3 3</li> -->
- 
-<li><h2>E X T R A S </h2>
-</li><b>-11-</b>
-
-
-<li><!--URL_EQUIS-->
-<a href="mstile-70x70.png" target="_blank" rel="nofollow noopener">
-<code>E X T R A S</code>
-</a> <code class="image">image</code> 
-23| CARNE DE RES
-<br><b>$2.00</b></li>
-
-<li><!--URL_EQUIS-->
-<a href="mstile-144x144.png" 
-target="_blank" rel="nofollow noopener">
-<code>E X T R A S</code>
-</a> <code class="image">image</code> 
-24| POLLO CRISPY
-<br><b>$2.00</b></li>
-
-<li><!--URL_EQUIS-->
-<a href="blob/master/mstile-150x150.png" 
-target="_blank" rel="nofollow noopener">
-<code>E X T R A S</code>
-</a> <code class="image">image</code> 
-25| QUESO FUNDIDO
-<br><b>$0.50</b></li>
-
-<!-- <l></a> </li> -->
-F R E E B I E S _4
-<li><!--URL_EQUIS-->
-<a href="mstile-310x310.png" target="_blank" rel="nofollow noopener">
-<code>F R E E B I E S</code>
-</a> <code class="image">image</code> 
-26| CHAMPINOÑES (extras)<br>
-<b>$</b></li>
-
-<li><!--URL_EQUIS-->
-<a href="mstile-310x310.png" 
-target="_blank" rel="nofollow noopener">
-<code>F R E E B I E S</code>
-</a> <code class="image">image</code>
-27| NUEVO- UNIDAD (extras)<br>
-<b>$</b></li>
-
-<li><!--URL_EQUIS-->
-<a href="mstile-310x310.png" target="_blank" 
-rel="nofollow noopener">
-<code>F R E E B I E S</code>
-</a> <code class="image">image</code>
-28| J A L A P E Ñ O(extras)<br>
-<b>$</b></li>
-
-<li><!--URL_EQUIS-->
-<a href="safari-pinned-tab.svg" 
-target="_blank" rel="nofollow noopener">
-<code>F R E E B I E S</code>
-</a> <code class="image">image</code> 
-29| CEBOLLA CARAMELIZADA
-<b>$</b></li>
-
-<!-- D A  _4 _</code></a>-->
-<b>B E B I D A S _8</b>
-<li>  <!--URL_EQUIS--> 
-<a href="blob/master/mstile-310x310.png" target="_blank" rel="nofollow noopener">
-<code>B E B I D A S</code>
-</a> <code class="image">image</code> 
-30| A G U A  _ M I N E R A 
-<br><b>$1.00</b></li>
-
-<li><!--URL_EQUIS-->
-<a href="mstile-310x310.png" target="_blank" rel="nofollow noopener">
-<code>B E B I D A S</code>
-</a> <code class="image">image</code>
- 31| TE LIPTON (durazno)
-<br><b>$2.00</b></li>
-
-<li><!--URL_EQUIS-->
-<a href="mstile-310x310.png" target="_blank" rel="nofollow noopener">
-<code>B E B I D A S</code>
-</a> <code class="image">image</code>
- 32| TE LIPTON (limon)
-<br><b>$2.00</b></li>
-
-<li><!--URL_EQUIS-->
-<a href="mstile-310x310.png" target="_blank" rel="nofollow noopener">
-<code>B E B I D A S</code>
-</a> <code class="image">image</code>
-33| REFRESCO LATA
-<br><b>$2.00</b></li>
-
-<li><!--URL_EQUIS-->
-<a href="mstile-310x310.png" target="_blank" rel="nofollow noopener">
-<code>B E B I D A S</code>
-</a> <code class="image">image</code>
-34| REFRESCO DE 1.5L 
-<br><b>$3.00</b></li>
-
-
-<!-- <l></a> </li> -->
-<!-- PRODUCTOS 35-39-->
-
-</ul>
-<h2 class="how">COMO SE INSTALA?</h2>
-<ol>
-<li>Si accedes CODIGO QR the repository from 
-<!--URL_EQUIS--><a href="#" target="_blank" rel="noopener">CODIGO QR </a>contains all settings to generate these images using thethe project's root directory. The tool generates images </li>
-<li>Si accedes RRSS, all favicon images  existing images with generated images. askable.app and replace. Create new black vector icon using 
-<!--URL_EQUIS--><a href="#" target="_blank" rel="noopener">RRSS</a> colorize images tool and replace
-<p><code>real-favicon generate favicon_config.json favicon_data.json .</code></p>
-</li>
-<li>DESDE SAFARY (MacOS) icon using 
-<!--URL_EQUIS--><a href="#" target="_blank" rel="noopener">SAFARY</a> 
-able to install the CLI version of <strong>RealFaviconGenerator</strong>,  following command from </li>
-<li>DESDE CROME (Androi) share image and replace. Build 
-upon the PWA by <a href="#" target="_blank" rel="noopener">GOOGLE CROME</a> rior to running this command. The resulting.</li>
-</ol>
-<h2 class="more">donde ESTAMOS ?</h2>
-<p>Looking for inspiration? Check out these PWA directories:</p>
-<ul>
-<li><!--URL_EQUIS-->
-<a href="#" target="_blank" rel="noopener nofollow">NAGUANAGUA</a>
-Looking for inspiration? Check out these PWA directories:
-</li>
-
-<li><!--URL_EQUIS-->
-<a href="#" target="_blank" rel="noopener nofollow">EL VIÑEDO</a>
-these PWA directories:these PWA directories:</li>
-<li><!--URL_EQUIS-->
-<a href="#" target="_blank" rel="noopener nofollow">CIUDAD ALIANZA</a>
-PWA directories:these PWA directories
-</li><!--URL_EQUIS-->
-<li><a href="#" target="_blank" rel="noopener nofollow">PTO. CABELLO </a>
-PWA directories:these PWA directories
-</li>
-</ul>
-<h2 class="help">WHASAPP I DELYVERY?</h2>
-<p>pULSA aQUI! <span class="icon arrow" role="img" aria-label="Arrow">&#x27A1;&#xFE0F;</span>&nbsp;
-<!--URL_EQUIS-->
-<a href="#" target="_blank" rel="nofollow noopener">PEDIDOS </a>|<span class="icon heart" role="img" aria-label="Heart">&#x2764;</span>|
-<!--URL_EQUIS-->
-<a href="#"target="_blank" rel="nofollow noopener">PAGADOS </a>appreciated!&nbsp;</p>	</div>
-</section>
-
-<footer>
-<div class="container">
-<p>(c) Desing 2024, por <b>elOMNiCIENTE SANCHEZ, fp.</b>  version #307 (c) , actualicaciones  
-<!--URL_EQUIS-->
-<a href="#" target="_blank" rel="noopener nofollow">todoslosviernes</a> or 
-<!--URL_EQUIS-->
-<a href="#" target="_blank" rel="noopener nofollow">IG</a>.</p>
-</div>	</footer>
-	
-
-</body>
-</html>
- 
+ </html>
